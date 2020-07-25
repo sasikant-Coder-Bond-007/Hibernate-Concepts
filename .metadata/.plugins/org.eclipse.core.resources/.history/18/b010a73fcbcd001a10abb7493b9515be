@@ -1,0 +1,12 @@
+package com.example;
+
+import com.example.pojo.UserDetails;
+
+public class HibernateTest {
+
+	public static void main(String[] args) {
+		UserDetails user = new UserDetails();
+
+	}
+
+}
