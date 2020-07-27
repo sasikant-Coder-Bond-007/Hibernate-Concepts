@@ -107,3 +107,51 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2020-07-24 22:25:49,782 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\main\resources
 2020-07-24 22:25:49,789 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-07-24 22:25:49,790 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\test\resources
+2020-07-26 18:32:19,575 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 18:32:19,651 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\main\resources
+2020-07-26 18:32:19,675 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 18:32:19,675 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\test\resources
+2020-07-26 18:34:44,710 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 18:34:44,711 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\main\resources
+2020-07-26 18:34:44,718 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 18:34:44,719 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\test\resources
+2020-07-26 18:35:02,682 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 18:35:02,684 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\main\resources
+2020-07-26 18:35:02,689 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 18:35:02,689 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\test\resources
+2020-07-26 18:45:50,931 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 18:45:50,932 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\main\resources
+2020-07-26 18:45:50,937 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 18:45:50,938 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\test\resources
+2020-07-26 18:47:57,505 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 18:47:57,505 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\main\resources
+2020-07-26 18:47:57,510 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 18:47:57,510 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\test\resources
+2020-07-26 19:13:47,704 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:13:47,705 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\main\resources
+2020-07-26 19:13:47,717 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:13:47,718 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\test\resources
+2020-07-26 19:14:21,972 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:14:21,973 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\main\resources
+2020-07-26 19:14:21,978 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:14:21,978 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\test\resources
+2020-07-26 19:14:28,475 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:14:28,476 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\main\resources
+2020-07-26 19:14:28,479 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:14:28,480 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\test\resources
+2020-07-26 19:16:17,465 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:16:17,465 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\main\resources
+2020-07-26 19:16:17,471 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:16:17,472 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\test\resources
+2020-07-26 19:16:23,117 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:16:23,118 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\main\resources
+2020-07-26 19:16:23,123 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:16:23,124 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\test\resources
+2020-07-26 19:17:00,550 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:17:00,550 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\main\resources
+2020-07-26 19:17:00,554 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:17:00,555 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\test\resources
+2020-07-26 19:19:12,056 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:19:12,057 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\main\resources
+2020-07-26 19:19:12,062 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-26 19:19:12,062 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Workspaces\Java\Hibernate\FirstHibernateProject\src\test\resources
