@@ -1,0 +1,5 @@
+package om.example.pojo;
+
+public class UserDetails {
+
+}

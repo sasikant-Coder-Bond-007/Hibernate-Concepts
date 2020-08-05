@@ -1,0 +1,27 @@
+package com.example.pojo;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table (name = "Employee_Details")
+public class Employee {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private int empId;
+	
+	@Column(name = "User_Name")
+	private String userName;
+	
+	@AttributeOverrides({
+		@AttributrOverride(name="street", column=@Column(name="Home_Street_Name")),
+		@AttributrOverride(name="city", column=@Column(name="Home_Street_Name")),
+		@AttributrOverride(name="state", column=@Column(name="Home_Street_Name")),
+		@AttributrOverride(name="pinCode", column=@Column(name="Home_Street_Name")),
+	})
+}

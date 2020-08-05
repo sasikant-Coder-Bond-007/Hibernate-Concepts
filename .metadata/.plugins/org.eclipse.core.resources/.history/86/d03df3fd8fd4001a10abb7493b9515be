@@ -1,0 +1,41 @@
+package com.example.pojo;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table (name = "Employee_Details")
+public class Employee {
+	@Id
+	@GeneratedValue (strategy = GenerationType.AUTO)
+	private int empId;
+	
+	@Column (name = "User_Name") 
+	private String userName;
+	
+	private Set<Address> listOfAddress = new HashSet<Address>();
+
+	public int getEmpId() {
+		return empId;
+	}
+
+	public void setEmpId(int empId) {
+		this.empId = empId;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	
+}

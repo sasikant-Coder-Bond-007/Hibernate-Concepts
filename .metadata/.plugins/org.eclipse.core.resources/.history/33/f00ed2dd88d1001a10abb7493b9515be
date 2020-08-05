@@ -1,0 +1,38 @@
+package com.example.pojo;
+
+import javax.persistence.Embeddable;
+
+@Embeddable
+public class Address {
+
+	private String Street;
+	private String City;
+	private String State;
+	private Long pinCode;
+	
+	public String getStreet() {
+		return Street;
+	}
+	public void setStreet(String street) {
+		Street = street;
+	}
+	public String getCity() {
+		return City;
+	}
+	public void setCity(String city) {
+		City = city;
+	}
+	public String getState() {
+		return State;
+	}
+	public void setState(String state) {
+		State = state;
+	}
+	public Long getPinCode() {
+		return pinCode;
+	}
+	public void setPinCode(Long pinCode) {
+		this.pinCode = pinCode;
+	}
+	
+}

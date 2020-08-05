@@ -1,0 +1,23 @@
+package com.example.test;
+
+import com.example.pojo.Address;
+import com.example.pojo.Employee;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		Employee emp = new Employee();
+		
+		emp.setEmpId(1001);
+		emp.setEmpName("Arnab Goswami");
+		
+		Address add = new Address();
+		
+		add.setCity("Mumbai");
+		add.setStreet("Worli");
+		add.setState("MH");
+		add.setPincode(411111);
+
+	}
+
+}

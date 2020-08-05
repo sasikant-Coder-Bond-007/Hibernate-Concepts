@@ -1,0 +1,75 @@
+package com.example.pojo;
+
+import javax.persistence.AttributeOverride;
+import javax.persistence.AttributeOverrides;
+import javax.persistence.Column;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table (name = "Employee_Details")
+public class Employee {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private int empId;
+	
+	@Column(name = "User_Name")
+	private String userName;
+	
+	@Embedded
+	@AttributeOverrides({
+		@AttributeOverride(name="street", column=@Column(name="Home_Street_Name")),
+		@AttributeOverride(name="city", column=@Column(name="Home_City_Name")),
+		@AttributeOverride(name="state", column=@Column(name="Home_State_Name")),
+		@AttributeOverride(name="pinCode", column=@Column(name="Home_PinCode"))
+	})
+	private Address homeAddress;
+	
+	@Embedded
+	@AttributeOverrides({
+		@AttributeOverride(name="street", column=@Column(name="Office_Street_Name")),
+		@AttributeOverride(name="city", column=@Column(name="Office_City_Name")),
+		@AttributeOverride(name="state", column=@Column(name="Office_State_Name")),
+		@AttributeOverride(name="pinCode", column=@Column(name="Office_PinCode"))
+	})
+	
+	private Address officeAddress;
+
+	public int getEmpId() {
+		return empId;
+	}
+
+	public void setEmpId(int empId) {
+		this.empId = empId;
+	}
+
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public Address getHomeAddress() {
+		return homeAddress;
+	}
+
+	public void setHomeAddress(Address homeAddress) {
+		this.homeAddress = homeAddress;
+	}
+
+	public Address getOfficeAddress() {
+		return officeAddress;
+	}
+
+	public void setOfficeAddress(Address officeAddress) {
+		this.officeAddress = officeAddress;
+	}
+	
+}

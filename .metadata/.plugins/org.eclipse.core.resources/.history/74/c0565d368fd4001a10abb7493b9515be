@@ -1,0 +1,7 @@
+package com.example.pojo;
+
+@Entity
+@Table (name = "Employee_Details")
+public class Employee {
+
+}

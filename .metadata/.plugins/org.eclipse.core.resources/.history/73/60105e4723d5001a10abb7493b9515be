@@ -1,0 +1,16 @@
+package com.example.test;
+
+import com.example.pojo.Address;
+import com.example.pojo.Employee;
+
+public class TestEmployee {
+
+	public static void main(String[] args) {
+		Employee emp = new Employee();
+		emp.setUserName("Abhishekh Trivedi");
+		
+		Address add = new Address();
+
+	}
+
+}

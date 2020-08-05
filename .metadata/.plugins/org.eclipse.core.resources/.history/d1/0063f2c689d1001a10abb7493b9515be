@@ -1,0 +1,16 @@
+package com.example.test;
+
+import org.hibernate.cfg.Configuration;
+
+import com.example.pojo.Employee;
+
+public class TestEmployee {
+
+	public static void main(String[] args) {
+		Employee emp = new Employee();
+		
+		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+
+	}
+
+}

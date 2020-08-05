@@ -1,0 +1,14 @@
+package com.example.pojo;
+
+import javax.persistence.Embeddable;
+
+@Embeddable
+public class Address {
+
+	private String Street;
+	private String City;
+	private String State;
+	private Long pinCode;
+	
+	
+}
